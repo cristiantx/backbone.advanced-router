@@ -1,6 +1,6 @@
 {
   "name": "backbone.advanced-router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Advanced Backbone Router that uses promises to have route filter and actions.",
   "main": "dist/backbone.advanced-router.js",
   "scripts": {
