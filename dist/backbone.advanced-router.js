@@ -1,4 +1,4 @@
-// Backbone.AdvancedRouter v0.1.0
+// Backbone.AdvancedRouter v0.1.1
 (function(root, factory) {
 	if (typeof define === 'function' && define.amd) {
 		define(['backbone', 'underscore', 'bluebird', 'backbone.base-router'], function(Backbone, _, Promise) {
@@ -19,6 +19,9 @@
 }(this, function(Backbone, _) {
 	'use strict';
 
+	var _ = require('underscore'),
+		Promise = require('bluebird');
+	
 	Backbone.AdvancedRouter = Backbone.BaseRouter.extend({
 	
 		history: [],
