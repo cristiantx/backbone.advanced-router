@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/cristiantx/backbone.advanced-router#readme",
   "dependencies": {
-    "backbone": "^1.2.3",
-    "backbone.base-router": "^1.1.0",
+    "backbone": "1.2.1",
+    "backbone.base-router": "1.1.0",
     "bluebird": "^2.10.0",
     "underscore": "^1.8.3"
   },
